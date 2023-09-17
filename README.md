@@ -1,4 +1,4 @@
-# Ping Pong Game
+# Ping-Pong Game
 
 ## Description
 
@@ -17,6 +17,10 @@ This is a classic two-player Pong game implemented using HTML, CSS, and JavaScri
 - Try to bounce the ball past your opponent's paddle to score points.
 - The game continues until one player reaches a predefined score or until you decide to stop playing.
 
+![image](https://github.com/pvchaitanya8/Pong_game/assets/79616131/550bccea-1c0c-456b-ad62-5462e457643a)
+
+![image](https://github.com/pvchaitanya8/Pong_game/assets/79616131/09f855db-2d08-48c3-a372-a86c86552400)
+
 ## Getting Started
 
 1. Clone this repository to your local machine using `git clone`.
@@ -25,10 +29,6 @@ This is a classic two-player Pong game implemented using HTML, CSS, and JavaScri
 ## Customization
 
 You can customize the game by adjusting various parameters in the `script.js` file, such as paddle speed, ball speed, scoring rules, and more.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
