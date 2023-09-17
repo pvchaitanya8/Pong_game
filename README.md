@@ -1,7 +1,5 @@
 # Pong Game
 
-![Pong Game Screenshot](screenshot.png)
-
 ## Description
 
 This is a classic two-player Pong game implemented using HTML, CSS, and JavaScript. Pong is a simple yet engaging arcade game where two players control paddles on either side of the screen and compete to bounce a ball back and forth. The objective is to prevent the ball from passing your paddle while trying to score points by making the ball pass your opponent's paddle.
