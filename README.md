@@ -17,9 +17,9 @@ This is a classic two-player Pong game implemented using HTML, CSS, and JavaScri
 - Try to bounce the ball past your opponent's paddle to score points.
 - The game continues until one player reaches a predefined score or until you decide to stop playing.
 
-![image](https://github.com/pvchaitanya8/Pong_game/assets/79616131/550bccea-1c0c-456b-ad62-5462e457643a)
+![image](https://github.com/pvchaitanya8/Pong_game/assets/93573686/963b3b42-82e0-4a05-a98e-1cc351c61cac)
 
-![image](https://github.com/pvchaitanya8/Pong_game/assets/79616131/09f855db-2d08-48c3-a372-a86c86552400)
+![image](https://github.com/pvchaitanya8/Pong_game/assets/93573686/49b0d530-c0a6-4f31-b344-82e0c0718121)
 
 ## Getting Started
 
