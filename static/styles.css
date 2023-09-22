@@ -1,0 +1,112 @@
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.game-container {
+    width: 800px;
+    height: 400px;
+    background-color: #333;
+    position: relative;
+    overflow: hidden;
+    border: 5px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.paddle {
+    width: 20px;
+    height: 100px;
+    background-color: #fff;
+    position: absolute;
+    transition: transform 0.2s ease-in-out;
+}
+
+#left-paddle {
+    left: 10px;
+}
+
+#right-paddle {
+    right: 10px;
+}
+
+.ball {
+    width: 20px;
+    height: 20px;
+    background-color: #ff0000;
+    position: absolute;
+    border-radius: 50%;
+    transition: transform 0.2s ease-in-out;
+    will-change: transform;
+}
+
+#game-over {
+    text-align: center;
+    color: #000000;
+    font-size: 48px;
+    margin-top: 20px;
+    text-shadow: 0 0 10px rgb(9, 255, 0);
+    font-family: "Lucida Console", "Courier New", monospace;
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+button#start-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #36a845;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button#start-button:hover {
+    background-color: #595959;
+    color: #30ff4b;
+    transform: scale(1.2);
+    transition: transform 1s ease-in-out;
+}
+
+h4 {
+    font-size: 16px;
+    color: #3a3a3a;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    font-size: 48px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: #525252;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}

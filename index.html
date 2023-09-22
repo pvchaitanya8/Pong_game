@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/styles.css">
+    <title>🏓 Pong Game</title>
+</head>
+<body>
+    <h1>Ping - Pong</h1>
+    <br>
+    <div class="game-container">
+        <div class="paddle" id="left-paddle"></div>
+        <div class="paddle" id="right-paddle"></div>
+        <div class="ball" id="ball"></div>
+    </div>
+    <div id="game-over" class="hidden">
+        <p></p>
+    </div>
+    <br>
+    <h4>🏓 Player 1 Score: <span id="left-player-score">0</span>  ____ VS ____  Player 2 Score: <span id="right-player-score">0</span> 🏓</h4>
+    <button id="start-button">Start Game</button>
+
+    <audio id="paddleSound">
+        <source src="static/paddle_hit.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <audio id="scoreSound">
+        <source src="static/score.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <script src="static/script.js"></script>
+</body>
+</html>
